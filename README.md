@@ -1,5 +1,5 @@
 # Large-numbers-byte-array-
-It is necessary to develop a class representing large numbers as a byte array.
+During the course of the project, a class was developed that accepts a huge number (one that doesn't fit in computer memory) as input, represented as a string. The class represents such numbers as a byte array and provides mathematical operations for working with large numbers.
 
 The class is include:
 
