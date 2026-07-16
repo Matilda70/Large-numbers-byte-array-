@@ -1,14 +1,16 @@
 # Large-numbers-byte-array-
-В процессе работы был разработан класс, на вход которому подается огромное число (не помещающееся в памяти компьютера) в виде строки, представляющий длинные числа в виде массива байт.
-Класс включает в себя:
-•	Конструктор по умолчанию
-•	Конструктор по значению
-•	Конструктор копии
-•	Функцию вывода на экран
-•	Перегруженные операторы:
-    o	Оператор присваивания
-    o	Операторы сравнения
-    o	Бинарные арифметические операторы(+, - , / , *) с операндами в виде длинных чисел и базовым целочисленным типом long long.
-    o	Унарные (++,-- ) в виде префиксной и постфиксной формы
-    o	Логические (<, >, ==, != )
-    o	Оператор приведения к базовому целочисленному типу long long
+It is necessary to develop a class representing large numbers as a byte array.
+
+The class is include:
+
+- Default constructor
+- Constructor with value
+- Copy constructor
+- Function for output to the console
+- Overloaded operators:
+  - Assignment operator
+  - Comparison operators
+  - Binary arithmetic operators (`+`, `-`, `/`, `*`) with operands represented as large numbers and the basic integer type `long long`
+  - Unary operators (`++`, `--`) in both prefix and postfix forms
+  - Logical operators (`<`, `>`, `==`, `!=`)
+  - Conversion operator to the basic integer type `long long`
